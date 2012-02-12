@@ -17,6 +17,11 @@ ports in one place.
 Solarized was initially ported for Gedit by [Matthew Cantelon][MC] and can be
 found at <http://github.com/mattcan/solarized-gedit>.
 
+### Screenshots
+
+![Light theme][LightImg]
+![Dark theme][DarkImg]
+
 ### Installation
 
 You can download the files in one of two ways:
@@ -48,3 +53,5 @@ There are a few things that still need to be worked out...
 [ES-Solarized]: http://ethanschoonover.com/solarized
 [SolarizedRepo]: https://github.com/altercation/solarized
 [MC]: http://matthewcantelon.ca
+[LightImg]: https://github.com/mattcan/solarized-gedit/raw/master/img/solarized_light.png
+[DarkImg]: https://github.com/mattcan/solarized-gedit/raw/master/img/solarized_dark.png
