@@ -51,22 +51,22 @@
   <style name="selection"                   foreground="base1" background="base02"/>
   <style name="cursor"                      foreground="base00"/>
   <style name="current-line"                background="base2"/>
-  <style name="line-numbers"                foreground="base0" background="base2"/>
+  <style name="line-numbers"                foreground="base00" background="base2"/>
   <style name="draw-spaces"                 foreground="base1"/>
 
   <!-- Bracket Matching -->
   <style name="bracket-match"               foreground="red" bold="true"/>
-  <style name="bracket-mismatch"            foreground="red" background="base3" bold="true"/>
+  <style name="bracket-mismatch"            foreground="red" background="base03" bold="true"/>
 
   <!-- Right Margin -->
-  <style name="right-margin"                foreground="base0" background="base02"/>
+  <style name="right-margin"                foreground="base00" background="base2"/>
   
   <!-- Search Matching -->
   <style name="search-match"                foreground="yellow"/>
 
   <!-- Comments -->
-  <style name="def:comment"                 foreground="base01" italic="true"/>
-  <style name="def:shebang"                 foreground="base01" italic="true"/>
+  <style name="def:comment"                 foreground="base1" italic="true"/>
+  <style name="def:shebang"                 foreground="base1" italic="true"/>
   <style name="def:doc-comment-element"     italic="true"/>
 
   <!-- Constants -->
@@ -82,14 +82,14 @@
   <style name="def:keyword"                 foreground="green" bold="true"/>
   <style name="def:variable"				foreground="blue"/>
   <style name="def:boolean"					foreground="red"/>
-  <style name="def:special-constant"		use-style="def:builtin"/>
+  <style name="def:special-constant"		foreground="red"/>
 
   <!-- Identifiers -->
   <style name="def:identifier"              foreground="blue"/>
   <style name="def:function"                use-style="def:identifier"/>
 
   <!-- Statements -->
-  <style name="def:statement"               foreground="green"/>
+  <style name="def:statement"               use-style="def:keyword"/>
 
   <!-- Types -->
   <style name="def:type"                    foreground="yellow"/> 
@@ -98,17 +98,17 @@
   <style name="def:preprocessor"            foreground="orange"/>
   <style name="def:error"                   foreground="red" bold="true"/>
   <style name="def:note"                    foreground="magenta" bold="true"/>
-  <style name="def:underlined"            	foreground="violet" underline="true"/>
+  <style name="def:underlined"            	foreground="violet"/>
 
   <!-- Language specific styles -->
   <style name="c:preprocessor"              use-style="def:preprocessor"/>
   <style name="c:included-file"             use-style="c:preprocessor"/>
   <style name="c:common-defines"            foreground="#0095FF" bold="true"/>
 
-  <style name="diff:diff-file"              use-style="def:statement"/>
-  <style name="diff:added-line"             use-style="def:decimal"/>
-  <style name="diff:removed-line"           use-style="def:string"/>
-  <style name="diff:changed-line"           use-style="c:preprocessor"/>
+  <style name="diff:diff-file"              foreground="blue" underline="true"/>
+  <style name="diff:added-line"             foreground="green" underline="true"/>
+  <style name="diff:removed-line"           foreground="red" bold="true"/>
+  <style name="diff:changed-line"           foreground="yellow" underline="true"/>
   <style name="diff:special-case"/>
   <style name="diff:location"               use-style="def:type"/>
 
