@@ -36,3 +36,8 @@ to one of these folders:
   path is for Ubuntu)
 
 	sudo cp solarized-* /usr/share/gtksourceview-3.0/styles
+	
+[ES]: http://ethanschoonover.com
+[ES-Solarized]: http://ethanschoonover.com/solarized
+[SolarizedRepo]: https://github.com/altercation/solarized
+[MC]: http://matthewcantelon.ca
