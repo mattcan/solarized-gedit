@@ -1,6 +1,6 @@
-# Solarized
+# Solarized for Gedit
 
-## Precision colors for machines and people
+## Precision colors for machines and people - **Now with more Gedit!**
 
 ---
 
@@ -9,8 +9,8 @@
 Solarized was created by [Ethan Schoonover][ES] and you can find out more
 about the design work that went into it on his [project page][ES-solarized]. If
 you would like to use Solarized in editors other than Gedit or on your terminal,
-Ethan hosts a [repo][SolarizedRepo] that combines all the available ports in one
-place.
+Ethan hosts the [main repository][SolarizedRepo] which combines all the available
+ports in one place.
 
 ### Solarized for Gedit
 
@@ -32,10 +32,17 @@ to one of these folders:
 
 		cp solarized-* ~/.local/share/gtksourceview-3.0/styles
 
-* if you want everyone on your PC to be able to use the styles (*Note: below
-  path is for Ubuntu*)
+* if you want everyone on your PC to be able to use the styles (*Note: path
+  below is for Ubuntu*)
 
 		sudo cp solarized-* /usr/share/gtksourceview-3.0/styles
+		
+### Roadmap
+
+There are a few things that still need to be worked out...
+
+1. Clean up the **c:** specific style definitions
+1. Add support for further custom style definitions
 	
 [ES]: http://ethanschoonover.com
 [ES-Solarized]: http://ethanschoonover.com/solarized
