@@ -29,29 +29,29 @@
   <_description>Port of the Light Solarized theme by Ethan Schoonover.</_description>
 
   <!-- Solarized Palette -->
-  <color name="base03"						value="#002b36"/>
-  <color name="base02"						value="#073642"/>
-  <color name="base01"						value="#586e75"/>
-  <color name="base00"						value="#657b83"/>
-  <color name="base0"						value="#839496"/>
-  <color name="base1"						value="#93a1a1"/>
-  <color name="base2"						value="#eee8d5"/>
-  <color name="base3"						value="#fdf6e3"/>
-  <color name="yellow"						value="#b58900"/>
-  <color name="orange"						value="#cb4b16"/>
-  <color name="red"							value="#dc322f"/>
-  <color name="magenta"						value="#d33682"/>
-  <color name="violet"						value="#6c71c4"/>
-  <color name="blue"						value="#268bd2"/>
-  <color name="cyan"						value="#2aa198"/>
-  <color name="green"						value="#859900"/>
+  <color name="base03"                      value="#002b36"/>
+  <color name="base02"                      value="#073642"/>
+  <color name="base01"                      value="#586e75"/>
+  <color name="base00"                      value="#657b83"/>
+  <color name="base0"                       value="#839496"/>
+  <color name="base1"                       value="#93a1a1"/>
+  <color name="base2"                       value="#eee8d5"/>
+  <color name="base3"                       value="#fdf6e3"/>
+  <color name="yellow"                      value="#b58900"/>
+  <color name="orange"                      value="#cb4b16"/>
+  <color name="red"                         value="#dc322f"/>
+  <color name="magenta"                     value="#d33682"/>
+  <color name="violet"                      value="#6c71c4"/>
+  <color name="blue"                        value="#268bd2"/>
+  <color name="cyan"                        value="#2aa198"/>
+  <color name="green"                       value="#859900"/>
   
   <!-- Global Settings -->
   <style name="text"                        foreground="base00" background="base3"/>
-  <style name="selection"                   foreground="base1" background="base02"/>
+  <style name="selection"                   foreground="base3" background="base00"/>
   <style name="cursor"                      foreground="base00"/>
   <style name="current-line"                background="base2"/>
-  <style name="line-numbers"                foreground="base00" background="base2"/>
+  <style name="line-numbers"                foreground="base1" background="base2"/>
   <style name="draw-spaces"                 foreground="base1"/>
 
   <!-- Bracket Matching -->
@@ -77,12 +77,12 @@
   <style name="def:complex"                 use-style="def:base-n-integer"/>
   <style name="def:character"               foreground="magenta"/>
   <style name="def:string"                  use-style="def:constant"/>
-  <style name="def:special-char"            foreground="orange"/>
-  <style name="def:builtin"        			foreground="yellow"/>
+  <style name="def:special-char"            foreground="red"/>
+  <style name="def:builtin"        			    foreground="yellow"/>
   <style name="def:keyword"                 foreground="green" bold="true"/>
-  <style name="def:variable"				foreground="blue"/>
-  <style name="def:boolean"					foreground="red"/>
-  <style name="def:special-constant"		foreground="red"/>
+  <style name="def:variable"                foreground="blue"/>
+  <style name="def:boolean"                 foreground="red"/>
+  <style name="def:special-constant"        foreground="blue"/>
 
   <!-- Identifiers -->
   <style name="def:identifier"              foreground="blue"/>
@@ -98,7 +98,7 @@
   <style name="def:preprocessor"            foreground="orange"/>
   <style name="def:error"                   foreground="red" bold="true"/>
   <style name="def:note"                    foreground="magenta" bold="true"/>
-  <style name="def:underlined"            	foreground="violet"/>
+  <style name="def:underlined"            	foreground="violet" underline="true"/>
 
   <!-- Language specific styles -->
   <style name="c:preprocessor"              use-style="def:preprocessor"/>
@@ -118,35 +118,6 @@
   <style name="xml:cdata-delim"             foreground="orange" bold="true"/>
   <style name="xml:processing-instruction"  bold="true"/>
   <style name="xml:doctype"                 foreground="magenta" bold="true"/>
-
-  <!--<style name="docbook-element"             foreground="#004141" bold="true"/>
-  <style name="docbook:header-elements"     use-style="docbook-element"/>
-  <style name="docbook:formatting-elements" use-style="docbook-element"/>
-  <style name="docbook:gui-elements"        use-style="docbook-element"/>
-  <style name="docbook:structural-elements" use-style="docbook-element"/>
-
-  <style name="js:object"                   foreground="dark-green"/>
-  <style name="js:constructors"             bold="true"/>
-
-  <style name="mooscript:special-vars"      use-style="c:preprocessor"/>
-
-  <style name="latex:display-math"          background="#C0FFC0"/>
-  <style name="latex:inline-math"           foreground="#006400"/>
-  <style name="latex:math-bound"            bold="true"/>
-  <style name="latex:common-commands"       foreground="dark-red"/>
-  <style name="latex:command"               foreground="#7000DF"/>
-  <style name="latex:structure"             bold="true"/>
-  <style name="latex:section"               foreground="#7000DF" bold="true"/>
-  <style name="latex:include"               use-style="latex:common-commands"/>
-  <style name="latex:use-package"           use-style="latex:common-commands"/>
-
-  <style name="changelog:date"              use-style="def:type"/>
-  <style name="changelog:email"             use-style="c:preprocessor"/>
-  <style name="changelog:file"              use-style="def:function"/>
-  <style name="changelog:bullet"            use-style="changelog:file"/>
-  <style name="changelog:release"           foreground="#0095FF" bold="true"/>
-
-  <style name="perl:pod"                    foreground="grey"/>-->
 
   <style name="python:string-conversion"    background="base2"/>
   <style name="python:module-handler"       use-style="def:character"/>
