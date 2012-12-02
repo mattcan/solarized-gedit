@@ -35,12 +35,14 @@ to one of these folders:
 
 * if you are the only user on your computer
 
-		cp solarized-* ~/.local/share/gtksourceview-3.0/styles
+		cp solarized-* ~/.local/share/gedit/styles
 
-* if you want everyone on your PC to be able to use the styles (*Note: path
-  below is for Ubuntu*)
+* if you want everyone on your PC to be able to use the styles (_path
+  below is for Ubuntu_)
 
 		sudo cp solarized-* /usr/share/gtksourceview-3.0/styles
+		
+You can also use the built installer (_has only been tested with Ubuntu 12.10_)
 		
 ### Roadmap
 

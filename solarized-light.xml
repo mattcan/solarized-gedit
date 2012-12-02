@@ -23,10 +23,10 @@
 
 -->
 
-<style-scheme id="solarizedlight" _name="Solarized Light" version="1.0">
+<style-scheme id="solarizeddark" _name="Solarized Dark" version="1.0">
 
   <author>Matthew Cantelon</author>
-  <_description>Port of the Light Solarized theme by Ethan Schoonover.</_description>
+  <_description>Port of the Dark Solarized theme by Ethan Schoonover.</_description>
 
   <!-- Solarized Palette -->
   <color name="base03"                      value="#002b36"/>
@@ -47,27 +47,27 @@
   <color name="green"                       value="#859900"/>
   
   <!-- Global Settings -->
-  <style name="text"                        foreground="base00" background="base3"/>
-  <style name="selection"                   foreground="base3" background="base00"/>
-  <style name="cursor"                      foreground="base00"/>
-  <style name="current-line"                background="base2"/>
-  <style name="line-numbers"                foreground="base1" background="base2"/>
+  <style name="text"                        foreground="base0" background="base03"/>
+  <style name="selection"                   foreground="base03" background="base0"/>
+  <style name="cursor"                      foreground="base0"/>
+  <style name="current-line"                background="base02"/>
+  <style name="line-numbers"                foreground="base1" background="base02"/>
   <style name="draw-spaces"                 foreground="base1"/>
 
   <!-- Bracket Matching -->
   <style name="bracket-match"               foreground="red" bold="true"/>
-  <style name="bracket-mismatch"            foreground="red" background="base03" bold="true"/>
+  <style name="bracket-mismatch"            foreground="red" background="base3" bold="true"/>
+
+  <!-- Comments -->
+  <style name="def:comment"                 foreground="base01" italic="true"/>
+  <style name="def:shebang"                 foreground="base01" italic="true" bold="true"/>
+  <style name="def:doc-comment-element"     italic="true"/>
 
   <!-- Right Margin -->
-  <style name="right-margin"                foreground="base01" background="base2"/>
+  <style name="right-margin"                foreground="base1" background="base02"/>
   
   <!-- Search Matching -->
   <style name="search-match"                foreground="yellow"/>
-
-  <!-- Comments -->
-  <style name="def:comment"                 foreground="base1" italic="true"/>
-  <style name="def:shebang"                 foreground="base1" italic="true"/>
-  <style name="def:doc-comment-element"     italic="true"/>
 
   <!-- Constants -->
   <style name="def:constant"                foreground="cyan"/>
@@ -78,7 +78,7 @@
   <style name="def:character"               foreground="magenta"/>
   <style name="def:string"                  use-style="def:constant"/>
   <style name="def:special-char"            foreground="red"/>
-  <style name="def:builtin"        			    foreground="yellow"/>
+  <style name="def:builtin"                 foreground="yellow"/>
   <style name="def:keyword"                 foreground="green" bold="true"/>
   <style name="def:variable"                foreground="blue"/>
   <style name="def:boolean"                 foreground="red"/>
@@ -97,8 +97,8 @@
   <!-- Others -->
   <style name="def:preprocessor"            foreground="orange"/>
   <style name="def:error"                   foreground="red" bold="true"/>
-  <style name="def:note"                    foreground="magenta" bold="true"/>
-  <style name="def:underlined"            	foreground="violet" underline="true"/>
+  <style name="def:note"                    background="base02" foreground="magenta" bold="true"/>
+  <style name="def:underlined"            	foreground="violet"/>
 
   <!-- Language specific styles -->
   <style name="c:preprocessor"              use-style="def:preprocessor"/>
@@ -106,10 +106,9 @@
   <style name="c:common-defines"            foreground="#0095FF" bold="true"/>
 
   <style name="diff:diff-file"              foreground="blue" underline="true"/>
-  <style name="diff:added-line"             foreground="green" underline="true"/>
-  <style name="diff:removed-line"           foreground="red" bold="true"/>
-  <style name="diff:changed-line"           foreground="yellow" underline="true"/>
-  <style name="diff:special-case"/>
+  <style name="diff:added-line"             foreground="base03" background="green"/>
+  <style name="diff:removed-line"           foreground="base03" background="red"/>
+  <style name="diff:changed-line"           foreground="base03" background="yellow"/>
   <style name="diff:location"               use-style="def:type"/>
 
   <style name="xml:attribute-name"          foreground="green"/>
@@ -130,4 +129,3 @@
   <style name="sh:dollar"                   foreground="green" bold="true"/>
 
 </style-scheme>
-
