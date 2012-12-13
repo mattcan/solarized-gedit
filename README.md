@@ -35,21 +35,23 @@ to one of these folders:
 
 * if you are the only user on your computer
 
-		cp solarized-* ~/.local/share/gedit/styles
+```
+cp solarized-* ~/.local/share/gedit/styles
+```
 
-* if you want everyone on your PC to be able to use the styles (_path
-  below is for Ubuntu_)
+* if you want everyone on your PC to be able to use the styles ( _path
+  below is for Ubuntu_ )
 
-		sudo cp solarized-* /usr/share/gtksourceview-3.0/styles
-		
-You can also use the built installer (_has only been tested with Ubuntu 12.10_)
-		
-### Roadmap
+```
+sudo cp solarized-* /usr/share/gtksourceview-3.0/styles
+```
 
-There are a few things that still need to be worked out...
+* you can also use the installer ( _has only been tested with Ubuntu 12.10_ )
 
-1. Clean up the **c:** specific style definitions
-1. Add support for further custom style definitions
+    cd wherever/you/extracted
+    chmod a+x installer
+    # -a for all users, -l for local
+    ./installer [-a | -l]
 	
 [ES]: http://ethanschoonover.com
 [ES-Solarized]: http://ethanschoonover.com/solarized
