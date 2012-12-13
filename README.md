@@ -48,10 +48,12 @@ sudo cp solarized-* /usr/share/gtksourceview-3.0/styles
 
 * you can also use the installer ( _has only been tested with Ubuntu 12.10_ )
 
-    cd wherever/you/extracted
-    chmod a+x installer
-    # -a for all users, -l for local
-    ./installer [-a | -l]
+```
+cd wherever/you/extracted
+chmod a+x installer
+# -a for all users, -l for local
+./installer [-a | -l]
+```
 	
 [ES]: http://ethanschoonover.com
 [ES-Solarized]: http://ethanschoonover.com/solarized
