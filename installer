@@ -32,7 +32,7 @@ INSTALLPATH=$HOME/.local/share/gedit/styles
 NEEDSUDO=false
 
 # loop through passed arguments
-while getopts "hal" OPTION
+while getopts "halAL" OPTION
 do
     case $OPTION in
         h)
@@ -43,8 +43,15 @@ do
             INSTALLPATH=/usr/share/gtksourceview-3.0/styles
             NEEDSUDO=true
             ;;
+        A)
+            INSTALLPATH=/usr/share/gtksourceview-2.0/styles
+            NEEDSUDO=true
+            ;;
         l)
             INSTALLPATH=$HOME/.local/share/gedit/styles
+            ;;
+        L)
+            INSTALLPATH=$HOME/.config/pluma/styles
             ;;
         ?)
             INSTALLPATH=$HOME/.local/share/gedit/styles
