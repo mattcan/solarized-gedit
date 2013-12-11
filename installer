@@ -6,12 +6,18 @@ usage()
 cat << EOF
 usage: $0 [options]
 
-This script installs the Solarized styles for gedit.
+This script installs the Solarized styles for gedit 3 or pluma (MATE)
 
 OPTIONS:
   -h    Shows this message
+  
+gedit3 (GNOME):
   -a    Install for all users
   -l    Install only for you
+
+pluma (MATE):
+  -A    Install for all users
+  -L    Install only for you
 EOF
 }
 
@@ -56,7 +62,7 @@ do
         ?)
             INSTALLPATH=$HOME/.local/share/gedit/styles
             ;;
-    esac
+    esac # is ridiculous
 done
 
 # install for all users when sudo set to true
