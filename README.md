@@ -1,3 +1,5 @@
+*This project has been unmaintained for a significant amount of time. If you would like to take it over, maybe make sure it works with the latest gedit, please reach out to [@mattcan](https://github.com/mattcan).*
+
 # Solarized for Gedit
 
 ## Precision colors for machines and people - _Now with more Gedit!_
